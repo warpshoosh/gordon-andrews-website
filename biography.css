@@ -87,53 +87,59 @@ h1{
     display: block;
   }
 
-  .carrousel {
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding: 1rem;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    background-color: #ECA3A3;
-  }
-  
-  .carrousel article {
-    flex: 0 0 auto;
-    min-width: 300px;
-    scroll-snap-align: start;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .carrousel article img {
-    width: 100%;
-    height: auto;
-    display: block;
+  body {
+    background-color: #8AA38B;
   }
 
-  .card1 {
-    background-color: #ECA3A3;
+  h2 {
+    text-align: center;
+    padding: 0;
+      font-family: "Funnel Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-size: 40px;
   }
+
+  .biographytext1 {
+  font-size: 16px;
+  line-height: 1.4;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 525;
+  width: 60%;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+  position: relative;
+  margin-top: -345px;
+  }
+
+  .biographytext2 {
+    font-size: 16px;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 525;
+    width: 60%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: left;
+    margin-bottom: 370px;
+    padding: 0%;
+    }
+
+    .quote {
+      position: relative;
+      margin-top: -310px;
+      font-size: 25px;
+    }
   
-  .card2 {
-    filter: sepia(60%);
-    border-radius: 20px;
-  }
-  
-  .card3 {
-    transform: scale(1.03);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card3:hover {
-    transform: scale(1.08);
-  }
 
   .footer {
     background-color: #ECA3A3;
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    font-size: 20px;
   }
