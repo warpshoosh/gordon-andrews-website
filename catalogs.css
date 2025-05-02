@@ -1,3 +1,12 @@
+header{
+  background-color: #ECA3A3;
+  padding: 0%;
+}
+
+body{
+  background-color: #D5D6C4;
+}
+
 .logo-container {
   background-color: #ECA3A3;
   padding: 1rem 0;
@@ -85,4 +94,144 @@ h1{
 
   li:hover .dropdown {
     display: block;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 0;
+      font-family: "Funnel Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-size: 40px;
+  }
+
+  .catalogstext1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 520;
+  }
+
+  .carrousel2 {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 2rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    background-color: #D5D6C4;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carrousel2 article {
+    flex: 0 0 auto;
+    min-width: 320px;
+    scroll-snap-align: start;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #D5D6C4;
+    transition: transform 0.3s ease;
+  }
+
+  .carrousel2 article:hover{
+    transform: scale(1.04);
+  }
+  
+  .carrousel2 article img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .carrousel2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card4 {
+    background-color: #D5D6C4;
+  }
+  
+  .card5 img {
+   max-width: 500px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+  }
+  
+  .card6 {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .quote2 {
+    position: relative;
+    margin-top: -5px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .catalogstext2 {
+    font-size: 15.5px;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 525;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .text-wrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .banknotetext1{
+    width: 55%;
+    text-align: justify;
+    margin-top: -12%;
+    font-size: 16px;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 525;
+  }
+
+  .bill-image2{
+  max-width: 1100px;
+   height: auto;
+   display: block;
+  margin: auto;
+  margin-top: 2rem;
+  }
+
+  .banknotetext2{
+    width: 35%;
+    text-align: left;
+    margin-top: 2%;
+    font-size: 15px;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 525;
+    margin-left: 11%;
+    padding-left: 2rem;
+  }
+
+  .banknotetext3{
+    width: 35%;
+    text-align: left;
+    margin-top: -11%;
+    margin-left: 52%;
+    font-size: 15px;
+    line-height: 1.4;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 525;
   }
