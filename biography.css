@@ -1,3 +1,14 @@
+@media (max-width: 874px) {
+  h1, h2 {
+    font-size: 28px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .logo-container {
   background-color: #ECA3A3;
   padding: 1rem 0;
@@ -101,56 +112,103 @@ h1{
       font-size: 40px;
   }
 
-  .biographytext1 {
-  font-size: 16px;
-  line-height: 1.4;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 525;
-  width: 60%;
-  margin-left: auto;
-  margin-right: 0;
-  text-align: justify;
-  position: relative;
-  margin-top: -345px;
-  }
-
-  .biographytext2 {
-    font-size: 16px;
-    line-height: 1.4;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 525;
-    width: 60%;
-    margin-left: auto;
-    margin-right: 0;
-    text-align: justify;
-    margin-bottom: 370px;
-    padding: 0%;
+  
+    .biography-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start; 
+      gap: 2rem;
+      margin: 2rem auto;
+      max-width: 1200px;
+    }
+    
+    
+    .gordonandrews-image {
+      flex: 1 1 200px;
+      max-width: 400px;
+    }
+    
+    .gordonandrews-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+   
+    .biography-texts {
+      flex: 1 1 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; 
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .biography-texts p {
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
     }
 
     .quote {
       position: relative;
-      margin-top: -250px;
+      margin-top: 50px;
       font-size: 25px;
       text-align: center;
     }
 
-    .biographycolumns1 {
-      width: 40%;
-      margin-left: 0;
-      margin-right: auto;
-      text-align: justify;
+    .influencetext1 {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 520;
+      font-size: 16px;
     }
 
-    .biographycolumns2 {
-      width: 40%;
-      margin-right: 0;
-      margin-left: auto;
-      text-align: justify;
-      margin-top: -255px;
+
+    .memorial-image{
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
     }
-  
+    
+
+    .biographytext1 {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 520;
+    }
+
+    .memorial-image img{
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+
+    .influencetext2 {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 520;
+      font-size: 16px;
+    }
+    
+    .legacytext1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 520;
+      font-size: 16px;
+    }
+
+    .legacytext2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 520;
+      font-size: 16px;
+    }
+    
+
+
 
   .footer {
     background-color: #ECA3A3;

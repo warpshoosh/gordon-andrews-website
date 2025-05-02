@@ -239,30 +239,39 @@ h1{
 
   .banknote-section {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start; 
     gap: 2rem;
     margin: 2rem auto;
     max-width: 1200px;
   }
   
-  .banknote-section img {
-    flex: 1 1 300px;
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+  
+  .banknote-image {
+    flex: 1 1 400px;
+    max-width: 600px;
   }
   
+  .banknote-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+ 
   .banknote-texts {
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start; 
     gap: 1rem;
+    margin: 0;
+    padding: 0;
   }
   
   .banknote-texts p {
     margin: 0;
+    padding: 0;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
