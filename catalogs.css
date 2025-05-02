@@ -1,3 +1,48 @@
+@media (max-width: 874px) {
+  h1, h2 {
+    font-size: 28px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banknotetext1,
+  .banknotetext2,
+  .banknotetext3,
+  .furnituretext1,
+  .furnituretext2 {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  .chairback,
+  .chairfront,
+  .bill-image2,
+  img {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+
+  .chairfront {
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .banknotetext3,
+  .chairfront,
+  .furnituretext2 {
+    margin-left: auto;
+  }
+
+  .text-wrapper {
+    justify-content: center;
+  }
+}
+
 header{
   background-color: #ECA3A3;
   padding: 0%;
@@ -192,46 +237,79 @@ h1{
     justify-content: flex-end;
   }
 
-  .banknotetext1{
-    width: 55%;
+  .banknote-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  
+  .banknote-section img {
+    flex: 1 1 300px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .banknote-texts {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .banknote-texts p {
+    margin: 0;
     text-align: justify;
-    margin-top: -12%;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1.4;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 525;
+    line-height: 1.5;
   }
 
-  .bill-image2{
-  max-width: 1100px;
-   height: auto;
-   display: block;
-  margin: auto;
-  margin-top: 2rem;
+  .furniture-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 4rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  
+  .furniture-image {
+    flex: 1 1 300px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .furniture-texts {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .furniture-texts p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
   }
 
-  .banknotetext2{
-    width: 35%;
-    text-align: left;
-    margin-top: 2%;
-    font-size: 15px;
-    line-height: 1.4;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 525;
-    margin-left: 11%;
-    padding-left: 2rem;
+  .footer {
+    background-color: #ECA3A3;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
   }
 
-  .banknotetext3{
-    width: 35%;
-    text-align: left;
-    margin-top: -11%;
-    margin-left: 52%;
-    font-size: 15px;
-    line-height: 1.4;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 525;
-  }
