@@ -295,6 +295,7 @@ h1{
     width: 100%;
     height: auto;
     border-radius: 8px;
+    transform: translateX(35px);
   }
   
   .furniture-texts {
